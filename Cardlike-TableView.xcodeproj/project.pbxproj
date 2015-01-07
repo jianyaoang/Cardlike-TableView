@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419448781A5D49CB00FAC378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419448771A5D49CB00FAC378 /* main.m */; };
+		4194487B1A5D49CC00FAC378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4194487A1A5D49CC00FAC378 /* AppDelegate.m */; };
+		4194487E1A5D49CC00FAC378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4194487D1A5D49CC00FAC378 /* ViewController.m */; };
+		419448811A5D49CC00FAC378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4194487F1A5D49CC00FAC378 /* Main.storyboard */; };
+		419448831A5D49CC00FAC378 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419448821A5D49CC00FAC378 /* Images.xcassets */; };
+		419448861A5D49CC00FAC378 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 419448841A5D49CC00FAC378 /* LaunchScreen.xib */; };
+		419448921A5D49CD00FAC378 /* Cardlike_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419448911A5D49CD00FAC378 /* Cardlike_TableViewTests.m */; };
+		419EE9A31A5D4B0C00D50296 /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 419EE9A21A5D4B0C00D50296 /* CardTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4194488C1A5D49CD00FAC378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4194486A1A5D49C900FAC378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419448711A5D49CA00FAC378;
+			remoteInfo = "Cardlike-TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		419448721A5D49CA00FAC378 /* Cardlike-TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardlike-TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419448761A5D49CB00FAC378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419448771A5D49CB00FAC378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		419448791A5D49CB00FAC378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4194487A1A5D49CC00FAC378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4194487C1A5D49CC00FAC378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4194487D1A5D49CC00FAC378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		419448801A5D49CC00FAC378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419448821A5D49CC00FAC378 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		419448851A5D49CC00FAC378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4194488B1A5D49CD00FAC378 /* Cardlike-TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardlike-TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419448901A5D49CD00FAC378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419448911A5D49CD00FAC378 /* Cardlike_TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cardlike_TableViewTests.m; sourceTree = "<group>"; };
+		419EE9A11A5D4B0C00D50296 /* CardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
+		419EE9A21A5D4B0C00D50296 /* CardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4194486F1A5D49CA00FAC378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419448881A5D49CD00FAC378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419448691A5D49C900FAC378 = {
+			isa = PBXGroup;
+			children = (
+				419448741A5D49CA00FAC378 /* Cardlike-TableView */,
+				4194488E1A5D49CD00FAC378 /* Cardlike-TableViewTests */,
+				419448731A5D49CA00FAC378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419448731A5D49CA00FAC378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419448721A5D49CA00FAC378 /* Cardlike-TableView.app */,
+				4194488B1A5D49CD00FAC378 /* Cardlike-TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419448741A5D49CA00FAC378 /* Cardlike-TableView */ = {
+			isa = PBXGroup;
+			children = (
+				419448791A5D49CB00FAC378 /* AppDelegate.h */,
+				4194487A1A5D49CC00FAC378 /* AppDelegate.m */,
+				4194487C1A5D49CC00FAC378 /* ViewController.h */,
+				4194487D1A5D49CC00FAC378 /* ViewController.m */,
+				4194487F1A5D49CC00FAC378 /* Main.storyboard */,
+				419EE9A11A5D4B0C00D50296 /* CardTableViewCell.h */,
+				419EE9A21A5D4B0C00D50296 /* CardTableViewCell.m */,
+				419448821A5D49CC00FAC378 /* Images.xcassets */,
+				419448841A5D49CC00FAC378 /* LaunchScreen.xib */,
+				419448751A5D49CB00FAC378 /* Supporting Files */,
+			);
+			path = "Cardlike-TableView";
+			sourceTree = "<group>";
+		};
+		419448751A5D49CB00FAC378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419448761A5D49CB00FAC378 /* Info.plist */,
+				419448771A5D49CB00FAC378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4194488E1A5D49CD00FAC378 /* Cardlike-TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				419448911A5D49CD00FAC378 /* Cardlike_TableViewTests.m */,
+				4194488F1A5D49CD00FAC378 /* Supporting Files */,
+			);
+			path = "Cardlike-TableViewTests";
+			sourceTree = "<group>";
+		};
+		4194488F1A5D49CD00FAC378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419448901A5D49CD00FAC378 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419448711A5D49CA00FAC378 /* Cardlike-TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419448951A5D49CD00FAC378 /* Build configuration list for PBXNativeTarget "Cardlike-TableView" */;
+			buildPhases = (
+				4194486E1A5D49CA00FAC378 /* Sources */,
+				4194486F1A5D49CA00FAC378 /* Frameworks */,
+				419448701A5D49CA00FAC378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardlike-TableView";
+			productName = "Cardlike-TableView";
+			productReference = 419448721A5D49CA00FAC378 /* Cardlike-TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4194488A1A5D49CD00FAC378 /* Cardlike-TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419448981A5D49CD00FAC378 /* Build configuration list for PBXNativeTarget "Cardlike-TableViewTests" */;
+			buildPhases = (
+				419448871A5D49CD00FAC378 /* Sources */,
+				419448881A5D49CD00FAC378 /* Frameworks */,
+				419448891A5D49CD00FAC378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4194488D1A5D49CD00FAC378 /* PBXTargetDependency */,
+			);
+			name = "Cardlike-TableViewTests";
+			productName = "Cardlike-TableViewTests";
+			productReference = 4194488B1A5D49CD00FAC378 /* Cardlike-TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4194486A1A5D49C900FAC378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jian Yao Ang";
+				TargetAttributes = {
+					419448711A5D49CA00FAC378 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4194488A1A5D49CD00FAC378 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 419448711A5D49CA00FAC378;
+					};
+				};
+			};
+			buildConfigurationList = 4194486D1A5D49C900FAC378 /* Build configuration list for PBXProject "Cardlike-TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419448691A5D49C900FAC378;
+			productRefGroup = 419448731A5D49CA00FAC378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419448711A5D49CA00FAC378 /* Cardlike-TableView */,
+				4194488A1A5D49CD00FAC378 /* Cardlike-TableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419448701A5D49CA00FAC378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419448811A5D49CC00FAC378 /* Main.storyboard in Resources */,
+				419448861A5D49CC00FAC378 /* LaunchScreen.xib in Resources */,
+				419448831A5D49CC00FAC378 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419448891A5D49CD00FAC378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4194486E1A5D49CA00FAC378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4194487E1A5D49CC00FAC378 /* ViewController.m in Sources */,
+				4194487B1A5D49CC00FAC378 /* AppDelegate.m in Sources */,
+				419448781A5D49CB00FAC378 /* main.m in Sources */,
+				419EE9A31A5D4B0C00D50296 /* CardTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419448871A5D49CD00FAC378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419448921A5D49CD00FAC378 /* Cardlike_TableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4194488D1A5D49CD00FAC378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419448711A5D49CA00FAC378 /* Cardlike-TableView */;
+			targetProxy = 4194488C1A5D49CD00FAC378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4194487F1A5D49CC00FAC378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419448801A5D49CC00FAC378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		419448841A5D49CC00FAC378 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419448851A5D49CC00FAC378 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419448931A5D49CD00FAC378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		419448941A5D49CD00FAC378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419448961A5D49CD00FAC378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cardlike-TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		419448971A5D49CD00FAC378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cardlike-TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		419448991A5D49CD00FAC378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cardlike-TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardlike-TableView.app/Cardlike-TableView";
+			};
+			name = Debug;
+		};
+		4194489A1A5D49CD00FAC378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cardlike-TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardlike-TableView.app/Cardlike-TableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4194486D1A5D49C900FAC378 /* Build configuration list for PBXProject "Cardlike-TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419448931A5D49CD00FAC378 /* Debug */,
+				419448941A5D49CD00FAC378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419448951A5D49CD00FAC378 /* Build configuration list for PBXNativeTarget "Cardlike-TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419448961A5D49CD00FAC378 /* Debug */,
+				419448971A5D49CD00FAC378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419448981A5D49CD00FAC378 /* Build configuration list for PBXNativeTarget "Cardlike-TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419448991A5D49CD00FAC378 /* Debug */,
+				4194489A1A5D49CD00FAC378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4194486A1A5D49C900FAC378 /* Project object */;
+}
